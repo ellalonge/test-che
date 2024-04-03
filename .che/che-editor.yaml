@@ -1,0 +1,6 @@
+id: che-incubator/che-idea-server/next
+override:
+  containers:
+    - name: editor-injector
+      memoryLimit: 1280Mi
+      cpuLimit: 1510m
